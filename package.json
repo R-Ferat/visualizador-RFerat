@@ -1,0 +1,17 @@
+{
+  "name": "visualizador_de_estados",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "vite",
+    "start": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^5.3.4"
+  },
+  "dependencies": {
+    "ol": "latest",
+    "serverless-http": "^3.2.0"
+  }
+}

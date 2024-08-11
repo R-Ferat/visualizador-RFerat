@@ -1,0 +1,35 @@
+@import "node_modules/ol/ol.css";
+
+html, body {
+  margin: 0;
+  height: 100%;
+  overflow: hidden; /* Evita el scroll si no es necesario */
+}
+
+body {
+  font-family: Arial, sans-serif;
+  height: 100vh;
+  overflow: hidden; /* Evita el scroll si no es necesario */
+}
+
+#map {
+  position: absolute;
+  top: 0;
+  left: 0; /* Ajusta el mapa para que comience desde el borde izquierdo */
+  bottom: 0;
+  right: 0; /* Ajusta el mapa para que se extienda hasta el borde derecho */
+  z-index: 1; /* Asegura que el mapa esté detrás del overlay */
+}
+
+.ol-popup {
+  background-color: white;
+  border: 1px solid black;
+  padding: 5px;
+  border-radius: 5px;
+  position: absolute;
+  white-space: nowrap;
+  font-size: 12px;
+  font-weight: bold;
+  z-index: 10;
+  display: none;
+}
